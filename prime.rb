@@ -24,4 +24,4 @@ def prime?(n)
     return true
   end
 end
-prime?(101013)
+prime?(105557)
