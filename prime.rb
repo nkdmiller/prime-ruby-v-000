@@ -6,7 +6,6 @@ def prime?(n)
     return true
   else
     if n % 2 == 0
-      puts "f"
       return false
     end
     count = n/2
@@ -14,14 +13,11 @@ def prime?(n)
     while count != 0
       a += 1
       if n % a == 0
-        puts "f"
         return false
       else
         count -= 1
       end
     end
-    puts "t"
     return true
   end
 end
-prime?(105557)
